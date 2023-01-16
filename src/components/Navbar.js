@@ -7,23 +7,28 @@ import {info} from "../info/Info";
 
 const links = [
     {
-        name: 'Home',
+        name: 'HOME',
         to: '/',
         active: 'home'
     },
     {
-        name: 'About Me',
+        name: 'about',
         to: '/about',
         active: 'about'
     },
     {
-        name: info.initials,
-        type: 'initials',
-        to: '/',
-        active: 'home'
+        name: info.resume,
+        type: 'resume',
+        to: '/resume',
+        active: 'newResume'
     },
     {
-        name: 'Portfolio',
+        name: 'Articles',
+        to: '/articles',
+        active: 'articles'
+    },
+    {
+        name: 'projects',
         to: '/portfolio',
         active: 'portfolio'
     }

@@ -1,9 +1,11 @@
 import self from "../img/self.png"
+// import mock from "../img/mock.png"
 import mock1 from "../img/mock1.png"
 import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
+
+// import mock3 from "../img/mock3.png"
+// import mock4 from "../img/mock4.png"
+// import mock5 from "../img/mock5.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -23,9 +25,9 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "John",
-    lastName: "Smith",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
+    firstName: "Shreel",
+    lastName: "Bansal",
+    resume: "Resume", // the example uses first and last, but feel free to use three or more if you like.
     position: "a Full Stack Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
@@ -37,62 +39,58 @@ export const info = {
         },
         {
             emoji: '🌎',
-            text: 'based in the US'
+            text: 'based in India'
         },
         {
             emoji: "💼",
-            text: "Systems Engineer at Google"
+            text: "BTECH STUDENT AT NIT SILCHAR"
         },
         {
             emoji: "📧",
-            text: "johnsmith@gmail.com"
+            text: "shreelbansal412@gmail.com"
         }
     ],
     socials: [
+        // {
+        //     link: "https://facebook.com",
+        //     icon: 'fa fa-facebook',
+        //     label: 'facebook'
+        // },
+        // {
+        //     link: "https://instagram.com",
+        //     icon: 'fa fa-instagram',
+        //     label: 'instagram'
+        // },
         {
-            link: "https://facebook.com",
-            icon: 'fa fa-facebook',
-            label: 'facebook'
-        },
-        {
-            link: "https://instagram.com",
-            icon: 'fa fa-instagram',
-            label: 'instagram'
-        },
-        {
-            link: "https://github.com",
+            link: "https://github.com/sb412/",
             icon: "fa fa-github",
             label: 'github'
         },
         {
-            link: "https://linkedin.com",
-            icon: "fa fa-linkedin",
-            label: 'linkedin'
+            link: "https://github.com", //ggole drive resume link
+            icon: "fa fa-udefa fa-file-pdf-o",
+            label: 'pdf'
         },
         {
-            link: "https://twitter.com",
-            icon: "fa fa-twitter",
-            label: 'twitter'
+            link: "https://www.linkedin.com/in/shreel-bansal-a0a8b81b7",
+            icon: "fa fa-linkedin",
+            label: 'linkedin'
         }
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello! I'm Shreel. I'm a btech student at Nit Silchar. I am currently studying ECE at NITS",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['javascript', 'react', 'git', 'github'],
+            exposedTo: ['nodejs', 'mongo db']
         }
     ,
     hobbies: [
         {
             label: 'reading',
             emoji: '📖'
-        },
-        {
-            label: 'theater',
-            emoji: '🎭'
         },
         {
             label: 'movies',
@@ -117,24 +115,92 @@ export const info = {
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
             image: mock2
-        },
-        {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock3
-        },
-        {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock4
-        },
-        {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock5
         }
+        // {
+        //     title: "Project 3",
+        //     live: "https://paytonpierce.dev",
+        //     source: "https://github.com/paytonjewell",
+        //     image: mock3
+        // },
+        // {
+        //     title: "Project 4",
+        //     live: "https://paytonpierce.dev",
+        //     source: "https://github.com/paytonjewell",
+        //     image: mock4
+        // },
+        // {
+        //     title: "Project 5",
+        //     live: "https://paytonpierce.dev",
+        //     source: "https://github.com/paytonjewell",
+        //     image: mock5
+        // }
+    ],
+    myArticles :[ // This is where your articles will be detailed
+        {
+            title: "Article 1",
+            text2: "This is a small article about XYZ",
+            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            //source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            image: mock1
+        },
+        {
+            title: "Article 2",
+            text2: "This is article about XYZ",
+            live: "https://paytonpierce.dev",
+            //source: "https://github.com/paytonjewell",
+            image: mock2
+        }
+        // {
+        //     title: "Project 3",
+        //     live: "https://paytonpierce.dev",
+        //     source: "https://github.com/paytonjewell",
+        //     image: mock3
+        // },
+        // {
+        //     title: "Project 4",
+        //     live: "https://paytonpierce.dev",
+        //     source: "https://github.com/paytonjewell",
+        //     image: mock4
+        // },
+        // {
+        //     title: "Project 5",
+        //     live: "https://paytonpierce.dev",
+        //     source: "https://github.com/paytonjewell",
+        //     image: mock5
+        // }
+    ],
+    courses: [ // This is where courses will be detailed
+        {
+            title: "Course 1",
+            live: "https://paytonpierce.dev",
+            text1: "This is my course about XYZ haiuefh9uear ufhfeaufheaur ufeahf0earehea0hd09ea eaaeieahfoihdfofe0esjaifesifusaivbfsav hsouahsuhfroushfurshfa", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            image: mock1
+        },
+        {
+            title: "Course 2",
+            live: "https://paytonpierce.dev",
+            text1: "This is my course about PQR which comprises of abc topics and pqr tech stack hdaofeohauf ijbcoafoeahrfie hfieahifheapihfpieh oieahfiheaifhea ",
+            source: "https://github.com/paytonjewell",
+            image: mock2
+        }
+        // {
+        //     title: "Project 3",
+        //     live: "https://paytonpierce.dev",
+        //     source: "https://github.com/paytonjewell",
+        //     image: mock3
+        // },
+        // {
+        //     title: "Project 4",
+        //     live: "https://paytonpierce.dev",
+        //     source: "https://github.com/paytonjewell",
+        //     image: mock4
+        // },
+        // {
+        //     title: "Project 5",
+        //     live: "https://paytonpierce.dev",
+        //     source: "https://github.com/paytonjewell",
+        //     image: mock5
+        // }
     ]
 }
